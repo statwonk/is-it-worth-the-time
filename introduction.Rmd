@@ -1,0 +1,4 @@
+This chart is a reproduction of the popular xkcd comic: [Is it worth the time?](http://xkcd.com/1205/) Automations and process improvements save time, but they also take time to build. The idea of the comic is a table that calculates how long you can spend on the automation before you're wasting time. A key compontent is the time horizon the automation runs. While that is set at five years in the comic, this app allows the horizon to be customized to your use case.
+
+The key to saving time is to automate the things you do most frequently, take the most time and will be needed for a long time. How long can you save?
+
