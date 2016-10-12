@@ -23,5 +23,6 @@ shinyUI(fluidPage(
       width = 9
     )
   ),
+  div(id = "disqus_thread"),
   tags$head(tags$script(src = "disqus.js"))
 ))
