@@ -6,6 +6,10 @@ library(dplyr)
 shinyServer(function(input, output) {
 
   output$time_saved_table <- renderPlot({
+    req(input$time_value > 0)
+    shiny::validate(
+      need(expr = input$time_value < 1000, "Please choose a value of less than 1,000")
+    )
     day_scalar <- switch(input$time_value_units,
                          "week(s)" = 7,
                          "month(s)" = 30.5,
