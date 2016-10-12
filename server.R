@@ -87,7 +87,6 @@ shinyServer(function(input, output) {
         family = "xkcd"
       ) +
       scale_x_discrete(
-        position = "top",
         labels = c(
           "50x per day",
           "5x per day",
